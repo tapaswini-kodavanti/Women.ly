@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+} 
+
+/* Header */
+.header {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	margin: 60px 20px 20px 20px;
+}
+.headerSub {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	margin: 20px 20px 50px 20px;
+}
+
+.headerContainer {
+	/* border-color: black;
+	border-style: solid; */
+	padding-left: 5%;
+	padding-top: 5%;
+	background-color: #528372;
+	padding-bottom: 2px;
+	height: 300px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+/* Navigation */
+.navContainer {
+	float: right;
+	margin-bottom: 100px;
+}
+.navLink {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 70px;
+}
+.navLink:hover {
+	opacity: 0.7;
+}
+
+/* Info Boxes */
+.infoBoxContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+.infoBox {
+	width: 900px;
+	height: 350px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px black;
+	display: flex;
+	align-items: center;
+}
+.infoBoxLabelContainer {
+	/* border-color: black;
+	border-style: solid; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	padding-left: 33px;
+}
+.infoBoxHeader {
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 40px;
+}
+.infoBoxHeaderSub {
+	font-family: 'Comfortaa', cursive;
+}
+.infoBoxPic {
+	height: 350px;
+	width: 50%;
+	object-fit: cover;
+}
+.infoBoxButton {
+	width: 150px;
+	height: 50px;
+	background-color: #528372;
+	border-radius: 15px;
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.infoBoxButton:hover {
+	opacity: 0.7;
+}
+.buttonLabel {
+	text-decoration: none;
+}
+.buttonLabel:hover {
+	opacity: 0.7;
+}
+
+/* Quizzes */
+.pageContainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}

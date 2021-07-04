@@ -1,0 +1,62 @@
+/* Universal Quiz CSS */
+
+.storyQuizForm {
+	margin: 20px;
+	width: 90%;
+}
+.questionLabel {
+	font-family: 'Comfortaa', cursive;
+  	font-size: 18px;
+	width: 90%;
+	margin-left: 10px;
+}
+.radio {
+	font-family: 'Comfortaa', cursive;
+  	font-size: 15px;
+	margin-left: 20px;
+}
+
+.questionLabelStory {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	visibility: hidden;
+}
+
+.sub-btn-story {
+	background-color: #89A3A0;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+	border: white 2px;
+	opacity: 1;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+  	cursor:pointer;
+}
+
+.sub-btn-story:hover{
+	opacity: 0.7;
+	cursor:pointer;
+}
+
+.endDisplay {
+	font-family: 'Comfortaa', cursive;
+	color: blue;
+	font-size: 15px;
+	visibility: hidden;
+	margin: 10px 0px 10px 0px;
+}
+
+.quizLinkImage {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	margin: 25px 50px 0px 0px ;
+}
+.finalScore {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	margin-left: 20px 0px 0px 10px;
+	visibility: hidden;
+}
