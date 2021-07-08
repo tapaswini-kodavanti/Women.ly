@@ -19,4 +19,4 @@ I learned about the various types of diseases that women typically encounter in 
 # What's next for Women.ly
 I plan on adding more quizzes about ovarian cancer and anxiety management, as these are topics are encountered often. I would also like an account feature so that the user can save their quiz scores.
 
-### Won Best Application award at girls.exe Hack the Gap 2021
+##### Won Best Web Application award at girls.exe Hack the Gap 2021
